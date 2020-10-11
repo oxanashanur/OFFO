@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>offo</title>
+	<link rel="stylesheet" href="offo.css"/>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery.royalslider.min.js"></script>
+    <script src="js/jquery.easing-1.3.js"></script>
+    <link rel="stylesheet" href="css/royalslider.css">
+    <link rel="stylesheet" href="rs-minimal-white.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic">
+    <script src="js/modernizr-custom.min.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+</head>
+<body>
+    <div class="container container1">
+        <div class="row"><!-- Header beginning -->
+            <div class="cols header">
+                <div class="header__info" id="navigation">
+                    <div class="header__logo">
+                        <div class="logo animated fadeIn"></div>
+                    </div>
+                    <h1 class="animated bounceInDown">OFFO — это удобная отправка показаний счетчика </h1>
+                    <p class="animated bounceInLeft">Зачем отправлять показания счетчиков учета? Так, оперативно, рассчитывается размер оплаты за водоотведение и электроснабжение вашей квартиры или дома.</p>
+                    <div class="header__download">
+                        <a href="#download" class="header__download_button animated bounceInLeft">Скачать приложение</a>
+                    </div>
+                </div>
+                <div class="header__menu">
+                    <div class="menu" id="navigation">
+                        <a href="#download" class="menu__item">Download</a>
+                        <a href="#gallery" class="menu__item">Gallery</a>
+                        <a href="#features" class="menu__item">Features</a>
+                        <a href="#about" class="menu__item">About</a>
+                    </div>
+                    <div class="menu_img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container2">
+        <div class="row"><!-- App beginning -->
+            <div class="cols app">
+                <div class="app__info">
+                    <h3>Считаем все!</h3>
+                    <p>Раз в квартал контролер Водоканала снимает показания. Но, мы должны быть уверены, что показания передаются правильно.</p>
+                </div>
+                <div id="unos"class="app__item">
+                    <script>
+                        $(window).scroll(function() {
+                        $('#unos').each(function(){
+                            if ($(this).offset().top < $(window).scrollTop()+4000) {
+                                $(this).addClass('animated bounceInUp');
+                                }
+                            });
+                        });
+                    </script>
+                    <div class="app__item_logo"></div>
+                    <h4>Холодная вода</h4>
+                    <p>Ее расходуется больше всего, зачем платить за соседей?</p>
+                </div>
+                <div id="dos" class="app__item2">
+                    <script>
+                        $(window).scroll(function() {
+                        $('#dos').each(function(){
+                            if ($(this).offset().top < $(window).scrollTop()+4000) {
+                                $(this).addClass('animated bounceInUp');
+                                }
+                            });
+                        });
+                    </script>
+                    <div class="app__item_logo2"></div>
+                    <h4>Горячая вода</h4>
+                    <p>Платите по факту использованного и вовремя!</p>
+                </div>
+                <div id="tres" class="app__item3">
+                    <script>
+                        $(window).scroll(function() {
+                        $('#tres').each(function(){
+                            if ($(this).offset().top < $(window).scrollTop()+4000) {
+                                $(this).addClass('animated bounceInUp');
+                                }
+                            });
+                        });
+                    </script>
+                    <div class="app__item_logo3"></div>
+                    <h4>Электричество</h4>
+                    <p>Кто помнит сколько кВт «набежало» в этом месяце?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container3">
+        <div class="row"><!-- Features beginning -->
+            <div class="cols features">
+                <div class="features__info">
+                    <h3>Возможности</h3>
+                    <p>Чтобы передать текущие показания достаточно, единожды, указать лицевой счет и номер счетчика, а в дальнейшем вводить показания счетчика. </p>
+                </div>
+                <div class="features_img">
+                    <!-- Carousel beginning -->
+                    <div id="slider-with-blocks-1" class="royalSlider rsWithBullets rsMinW">
+                        <div class="rsContent slide2">
+                            <div class="bContainer">
+                                <img class="rsABlock palmImg" data-fade-effect="none" data-move-effect="left" data-opposite="true" data-move-offset="450" data-delay="350" data-speed="300" data-easing="easeOutBack" src="img/f_plane@2x.png" width="344" height="178">
+                                <span class="rsABlock txtCent" data-move-effect="right">
+                                    <ul><p>Вам пригодится:</p>
+                                        <li>гибкая настройка установленных счетчиков;</li>
+                                        <li>хранение полной истории выписки показаний;</li>
+                                        <li>поддержка двухтарифных счетчиков.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Carousel end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container4">
+        <div class="row"><!-- Screenshots beginning -->
+            <div class="cols screenshots">
+                <div id="features" class="screenshots__info">
+                    <h3>Скриншоты</h3>
+                    <p>Взгляните на скриншоты приложения OFFO. Отправка показаний счетчиков никогда еще не была настолько простой.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container5">
+        <div class="row">
+            <div class="cols screenshots2">
+                <!-- Carousel beginning -->
+                <div class="iphonebg">
+                    <div class="jcarousel-wrapper">
+                        <div class="jcarousel" data-jcarousel="true">
+                            <ul class="clearfix" style="transition-duration: 0s; transition-timing-function: ease; transition-property: all; transform: translate3d(0px, 0px, 0px);">
+                                <li style="width: 253px;"><img src="img/img1.jpg" width="253" height="364" alt=""></li>
+                                <li style="width: 253px;"><img src="img/img2.jpg" width="253" height="364" alt=""></li>
+                                <li style="width: 253px;"><img src="img/img3.jpg" width="253" height="400" alt=""></li>
+                                <li style="width: 253px;"><img src="img/img4.jpg" width="253" height="364" alt=""></li>
+                                <li style="width: 253px;"><img src="img/img5.jpg" width="253" height="364" alt=""></li>
+                            </ul>
+                        </div>
+                        <a id="reviews" href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"></a>
+                        <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"></a>
+                        <div class="screenshots2__nav">
+                            <div id="gallery" class="screenshots2__nav-img"></div>
+                            <p>There is no other tool out there that is so intrinsically connected to the way tourists walk today.</p>
+                            <p>– Jeffrey D.</p>
+                        </div>
+                        <p class="jcarousel-pagination" data-jcarouselpagination="true">
+                            <a href="#1" class="active">1</a><a href="#2" class="">2</a><a href="#3" class="">3</a><a href="#4" class="">4</a><a href="#5" class="">5</a>
+                        </p>
+                    </div>
+                </div><!-- Carousel end -->
+            </div>
+        </div>
+    </div>
+    <div class="container container6">
+        <div class="row"><!-- Version, Rating beginning -->
+            <div class="cols info">
+                <div class="info__version">
+                    <p>Актуальная версия:</p>
+                    <p>3.00 Android (18 марта 2016)</p>
+                </div>
+                <div class="info__rating">
+                    <p>Оценка приложения:</p>
+                    <p>★★★★☆ (4.0, по отзывам более 500 пользователей)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container7">
+        <div class="row"><!-- Footer beginning -->
+            <div class="cols footer">
+                <div class="footer__info">
+                    <h3>Скачать</h3>
+                    <p>Приложение «OFFO» абсолютно бесплатно. Никаких дополнительных платежей или встроенных покупок! Отправка одного счетчика = 1 смс по вашему тарифу.</p>
+                    <div class="download_button">
+                        <a href="https://itunes.apple.com/ru/app/map-vl/id500116344?mt=8" class="footer__appstore"></a>
+                        <a href="https://play.google.com/store/apps/details?id=ru.vl.map" class="footer__googleplay"></a>
+                    </div>
+                    <div class="download_info">Для работы приложения требуется iOS 7.0 и выше для обладателей iPhone, а если вы пользователь Android вам потребуется Android 4.0.3 и выше.</div>
+                    <div id="download" class="footer__down">
+                        <p>&copy; City site VL.ru, 2016.</p>
+                        <!--<div class="social_button">
+                            <a href="https://twitter.com/probkivlru" class="footer__down_twitter"></a>
+                            <a href="https://www.instagram.com/probkivlru/" class="footer__down_instagram"></a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--плавный переход по якорю-->
+	<script src="jquery.malihu.PageScroll2id.min.js"></script>
+	
+	<script>
+		(function($){
+			$(window).load(function(){
+				$("#navigation a").mPageScroll2id({
+					offset:"#navigation"
+				});
+			});
+		})(jQuery);
+	</script>
+    
+    
+    <!--Carousel2-->
+    <script>
+        $(function () {
+            var jcarousel = $('.jcarousel');
+
+            jcarousel
+                    .on('jcarousel:reload jcarousel:create', function () {
+                        jcarousel.jcarousel('items').width(jcarousel.innerWidth());
+                    })
+                    .jcarousel({
+                        wrap: 'circular',
+                        transitions: Modernizr.csstransitions ? {
+                            transforms:   Modernizr.csstransforms,
+                            transforms3d: Modernizr.csstransforms3d,
+                            easing:       'ease'
+                        } : false
+                    });
+
+            $('.jcarousel-control-prev')
+                    .on('jcarouselcontrol:active', function() {
+                        $(this).removeClass('inactive');
+                    })
+                    .on('jcarouselcontrol:inactive', function() {
+                        $(this).addClass('inactive');
+                    })
+                    .jcarouselControl({
+                        target: '-=1'
+                    });
+
+            $('.jcarousel-control-next')
+                    .on('jcarouselcontrol:active', function() {
+                        $(this).removeClass('inactive');
+                    })
+                    .on('jcarouselcontrol:inactive', function() {
+                        $(this).addClass('inactive');
+                    })
+                    .on('click', function(e) {
+                        e.preventDefault();
+                    })
+                    .jcarouselControl({
+                        target: '+=1'
+                    });
+
+            $('.jcarousel-pagination')
+                    .on('jcarouselpagination:active', 'a', function() {
+                        $(this).addClass('active');
+                    })
+                    .on('jcarouselpagination:inactive', 'a', function() {
+                        $(this).removeClass('active');
+                    })
+                    .on('click', function(e) {
+                        e.preventDefault();
+                    })
+                    .jcarouselPagination({
+                        item: function(page) {
+                            return '<a href="#' + page + '">' + page + '</a>';
+                        }
+                    });
+        });
+    </script>
+    
+</body>
+</html>
